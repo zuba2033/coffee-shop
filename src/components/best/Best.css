@@ -1,0 +1,17 @@
+.best {
+    min-height: 500px;
+    background: url('../../img/bestBG.png') center center / cover no-repeat; 
+    padding: 80px 0 90px 0;
+}
+
+.best__title {
+    font-size: 24px;
+    text-align: center;
+}
+
+.best__wrapper {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,28 @@
+.footer {
+    position: relative;
+    height: 150px;
+    padding: 30px 0;
+}
+
+.footer .nav {
+    top: 30px;
+    left: 50%;
+    transform: translateX(-133px);
+}
+
+.footer .nav .nav__links {
+    margin: 0 auto;
+}
+
+.footer .divider {
+    margin-top: 50px;
+}
+
+.footer .nav__link button {
+    color:#000;
+}
+
+.footer .nav__logo svg path {
+    fill: #000;
+}
+

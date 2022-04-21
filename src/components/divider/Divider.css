@@ -1,0 +1,31 @@
+.divider {
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.divider::after, .divider::before {
+    display: block;
+    content: '';
+    width: 60px;
+    height: 1px;
+    background-color: #000;
+    border-radius: 10%;
+    position: absolute;
+    top: 50%;
+}
+
+.divider::after {
+    left: -85px;
+}
+
+.divider::before {
+    left: 55px;
+}
+
+.divider svg path {
+    fill: #000;
+}
+

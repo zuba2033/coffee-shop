@@ -1,0 +1,15 @@
+.ourCoffeeHeader {
+    position: relative;
+    min-height: 260px;
+    background: url('../../img/SecondBg.jpg') center center / cover no-repeat; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ourCoffeeHeader h2 {
+    color: #fff;
+    font-size: 40px;
+}
+
+

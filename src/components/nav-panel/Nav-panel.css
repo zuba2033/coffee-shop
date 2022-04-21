@@ -1,0 +1,36 @@
+.nav {
+    position: absolute;
+    top: 50px;
+    left: 150px;
+}
+
+.nav__logo {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: -15px;
+    left: -35px;
+}
+
+.nav__links {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.nav__link {
+    list-style: none;
+}
+
+.nav__link button {
+    font-family: 'Merienda', cursive;
+    font-weight: 400;
+    font-size: 12px;
+    text-decoration: none;
+    color: #fff;
+    background: none;
+    border: none;
+    cursor: pointer;
+    user-select: none;
+}
+
